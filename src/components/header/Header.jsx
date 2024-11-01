@@ -10,7 +10,7 @@ export function Header() {
                         <NavLink to="/catalog">Каталог</NavLink>
                         <NavLink to="/users">Пользователи</NavLink>
                     </div>
-                    <NavLink to="/"><img src="/avtotorgLogo.png" alt="logo" className={s.logo} /></NavLink>
+                    <NavLink to="/"><img src="/images/avtotorgLogo.png" alt="logo" className={s.logo} /></NavLink>
                     <div className={s.btns}>
                         <button className={s.regBtn}>Регистрация</button>
                         <button className='btn'>Вход</button>
